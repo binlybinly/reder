@@ -1,5 +1,5 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
-const projectPageURL = process.env.URL || 'https://redean.onrender.com';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
+const projectPageURL = process.env.URL || 'https://rendery.yeneeho.gay';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
 const UUID = process.env.UUID || 'fea0259e-634c-4b69-b94f-094c484d17a0';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.cn';  // 哪吒3个变量不全不运行
