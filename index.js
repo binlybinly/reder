@@ -6,8 +6,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.cn';  // 哪吒3个变�
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';           // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                 // 哪吒客户端密钥
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'rendery.yeneeho.gay';             // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"{"AccountTag":"7d1a236b2238d581f8181d580d1b3d6c","TunnelSecret":"WZsNX82F7TQVAjhXXn9ybBZC2kVdG0jG/ruBlcJlvCc=","TunnelID":"bcc3501c-4d67-4d17-ad5e-3c7c7e47f1f8"} 
- ';                 // 固定隧道json或token，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"7d1a236b2238d581f8181d580d1b3d6c","TunnelSecret":"WZsNX82F7TQVAjhXXn9ybBZC2kVdG0jG/ruBlcJlvCc=","TunnelID":"bcc3501c-4d67-4d17-ad5e-3c7c7e47f1f8"} ';                 // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';              // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                      // 节点端口
 const NAME = process.env.NAME || 'Vls';                        // 节点名称
